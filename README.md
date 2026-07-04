@@ -1,55 +1,51 @@
 # 见远而行 · Horizon Joins Journey
 
-> Building AI-Native Data Infrastructure  
-> 为 AI 时代构建可观测、可治理、语义一致的数据基础设施。
+> Personal projects around data, AI, and practical tooling.  
+> 一些围绕数据、AI 和日常工具的个人项目。
 
-I build small but serious data products around data assets, prompt observability, semantic modeling, and governance workflows.
+I work on small tools and ongoing experiments related to data assets, prompt observability, semantic modeling, and lightweight workflows.
 
-我在持续把数据、Prompt、规则和工具，做成一组真正可运行的系统，而不是停留在概念层。
+主要是在做一些偏实用的项目和实验，慢慢把想法做成能用、能持续维护的东西。
 
-## Current Work
+## Projects
 
-- AI Data Portal
-- Prompt Observability
-- Semantic Layer
-- Lakehouse Governance
-- Data Contracts
-- Automation Infrastructure
-
-## Live Projects
-
-- [www.overme.cn](https://www.overme.cn)  
-  个人主页，也是项目、札记、实验和长期方向的统一入口。
+- [overme.cn](https://www.overme.cn)  
+  个人主页，也是项目、文章和实验的入口。
 
 - [docs.overme.cn](https://docs.overme.cn)  
-  湖仓开发文档，面向开发、报表与运维的统一工作入口。
+  一些开发文档和使用记录。
 
 - [data.overme.cn](https://data.overme.cn)  
-  数据资产门户，持续把分散数据源整理为可发现、可理解、可复用的数据资产。
+  数据整理和资产化方面的尝试。
 
 - [audit.overme.cn](https://audit.overme.cn/)  
-  代码审查平台，用来沉淀更稳定的工程审查和交付流程。
+  代码审查相关的小工具。
 
 - [wbadmin.overme.cn](https://wbadmin.overme.cn/)  
-  湖仓工具管理台，服务于内部工具、任务和环境的统一管理。
+  内部工具和任务管理的整理页。
 
 - [observer.overme.cn](https://observer.overme.cn/)  
-  Prompt 可观测台 / 日志分析，用来追踪调用、排查问题并观察模型行为。
+  Prompt 调用观察和日志分析相关实验。
 
-## Principles
+## Focus
 
-- Ship small, run real.
-- Make data assets searchable and reusable.
-- Treat prompts, metrics and schemas as production artifacts.
-- Build tools that reduce coordination cost.
+- Data tooling
+- Prompt observability
+- Semantic modeling
+- Lightweight automation
+
+## Notes
+
+- Ship small, iterate steadily.
+- Prefer tools that are simple to run and maintain.
+- Keep data, prompts, and schemas easy to inspect and reuse.
 
 ## Stack
 
-Python · FastAPI · Flask · Streamlit · React · PostgreSQL · SQLite · DuckDB · Pandas · LLM/RAG · Lakehouse
+Python · FastAPI · Flask · Streamlit · React · PostgreSQL · SQLite · DuckDB · Pandas · LLM/RAG
 
 ## Links
 
 - Website: [overme.cn](https://www.overme.cn)
 - Docs: [docs.overme.cn](https://docs.overme.cn)
 - GitHub: [github.com/0verme](https://github.com/0verme)
-- Brand: HJJ / 见远而行
