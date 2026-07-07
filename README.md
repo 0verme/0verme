@@ -12,20 +12,26 @@ I work on small tools and ongoing experiments related to data assets, prompt obs
 - [overme.cn](https://www.overme.cn)  
   个人主页，也是项目、文章和实验的入口。
 
-- [docs.overme.cn](https://docs.overme.cn)  
-  一些开发文档和使用记录。
-
 - [data.overme.cn](https://data.overme.cn)  
   数据整理和资产化方面的尝试。
 
 - [audit.overme.cn](https://audit.overme.cn/)  
-  代码审查相关的小工具。
+  湖仓代码审查相关。
+
+- [token.overme.cn](https://token.overme.cn/)  
+  Token用量记录。
+
+- [bili.overme.cn](https://bili.overme.cn/)  
+  bilibili充电驾驶舱记录。
+
+- [docs.overme.cn](https://docs.overme.cn)  
+  一些开发文档和使用记录。
 
 - [wbadmin.overme.cn](https://wbadmin.overme.cn/)  
-  内部工具和任务管理的整理页。
+  内部工具和任务管理的整理页。(待建)
 
 - [observer.overme.cn](https://observer.overme.cn/)  
-  Prompt 调用观察和日志分析相关实验。
+  Prompt 调用观察和日志分析相关实验。(待建)
 
 ## Focus
 
