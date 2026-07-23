@@ -1,57 +1,47 @@
 # 见远而行 · Horizon Joins Journey
 
-> Personal projects around data, AI, and practical tooling.  
-> 一些围绕数据、AI 和日常工具的个人项目。
+> Open-source tools at the intersection of data engineering and AI.
+> 专注数据工程、数据治理与 AI 应用的开源工具。
 
-I work on small tools and ongoing experiments related to data assets, prompt observability, semantic modeling, and lightweight workflows.
+I build focused tools for data lineage, metadata governance, and reviewable AI-assisted workflows.
 
-主要是在做一些偏实用的项目和实验，慢慢把想法做成能用、能持续维护的东西。
+我希望把真实的数据工程问题抽象成可运行、可审计、可持续维护的开源项目。
 
-## Projects
+## Featured open source
 
-- [overme.cn](https://www.overme.cn)  
-  个人主页，也是项目、文章和实验的入口。
+| Project | What it does | Status |
+| --- | --- | --- |
+| [lineage-viewer](https://github.com/0verme/lineage-viewer) | Framework-free Web Component for table and column lineage | Stable · [Live demo](https://lineage.overme.cn) |
+| [metadata-classifier](https://github.com/0verme/metadata-classifier) | Offline-first metadata classification with auditable evidence | First public release prepared |
+| [soft-copyright-workbench](https://github.com/0verme/soft-copyright-workbench) | Local-first, review-oriented AI drafting workbench | First public release prepared |
 
-- [data.overme.cn](https://data.overme.cn)  
-  数据整理和资产化方面的尝试。
+## Why these projects
 
-- [audit.overme.cn](https://audit.overme.cn/)  
-  湖仓代码审查相关。
+- **Inspectable by default** — schemas, rules, evidence, and generated artifacts stay reviewable.
+- **Local-first where practical** — sensitive metadata and workflow state do not require a hosted platform.
+- **Small integration surface** — reusable components and CLIs instead of a mandatory all-in-one stack.
+- **Synthetic public examples** — no production metadata, credentials, or internal process data.
 
-- [token.overme.cn](https://token.overme.cn/)  
-  Token用量记录。
+## Current focus
 
-- [bili.overme.cn](https://bili.overme.cn/)  
-  bilibili充电驾驶舱记录。
+- Data lineage visualization
+- Metadata classification and governance
+- AI-assisted workflows with human review
+- Lightweight automation for data teams
 
-- [docs.overme.cn](https://docs.overme.cn)  
-  一些开发文档和使用记录。
+## Working principles
 
-- [wbadmin.overme.cn](https://wbadmin.overme.cn/)  
-  内部工具和任务管理的整理页。(待建)
-
-- [observer.overme.cn](https://observer.overme.cn/)  
-  Prompt 调用观察和日志分析相关实验。(待建)
-
-## Focus
-
-- Data tooling
-- Prompt observability
-- Semantic modeling
-- Lightweight automation
-
-## Notes
-
-- Ship small, iterate steadily.
-- Prefer tools that are simple to run and maintain.
-- Keep data, prompts, and schemas easy to inspect and reuse.
+- Ship small and verify the whole installation path.
+- Prefer explicit configuration and useful failure reports.
+- Keep proprietary work separate from public, synthetic examples.
+- Attribute upstream work clearly; forks are not presented as original projects.
 
 ## Stack
 
-Python · FastAPI · Flask · Streamlit · React · PostgreSQL · SQLite · DuckDB · Pandas · LLM/RAG
+TypeScript · Web Components · Python · FastAPI · Streamlit · React · PostgreSQL · SQLite · Pandas · LLM workflows
 
 ## Links
 
 - Website: [overme.cn](https://www.overme.cn)
-- Docs: [docs.overme.cn](https://docs.overme.cn)
+- Lineage demo: [lineage.overme.cn](https://lineage.overme.cn)
 - GitHub: [github.com/0verme](https://github.com/0verme)
