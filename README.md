@@ -11,9 +11,8 @@ I build focused tools for data lineage, metadata governance, and reviewable AI-a
 
 | Project | What it does | Status |
 | --- | --- | --- |
-| [lineage-viewer](https://github.com/0verme/lineage-viewer) | Framework-free Web Component for table and column lineage | Stable · [Live demo](https://lineage.overme.cn) |
-| [metadata-classifier](https://github.com/0verme/metadata-classifier) | Offline-first metadata classification with auditable evidence | First public release prepared |
-| [soft-copyright-workbench](https://github.com/0verme/soft-copyright-workbench) | Local-first, review-oriented AI drafting workbench | First public release prepared |
+| [Lineage](https://lineage.overme.cn/) | Interactive table and column lineage visualization | Live |
+| [Ledger](https://ledger.overme.cn/) | Visual ledger and operations dashboard | Live |
 
 ## Why these projects
 
@@ -43,5 +42,6 @@ TypeScript · Web Components · Python · FastAPI · Streamlit · React · Postg
 ## Links
 
 - Website: [overme.cn](https://www.overme.cn)
-- Lineage demo: [lineage.overme.cn](https://lineage.overme.cn)
+- Lineage: [lineage.overme.cn](https://lineage.overme.cn/)
+- Ledger: [ledger.overme.cn](https://ledger.overme.cn/)
 - GitHub: [github.com/0verme](https://github.com/0verme)
