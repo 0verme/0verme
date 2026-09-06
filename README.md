@@ -1,74 +1,40 @@
-# 见远而行 · Horizon Joins Journey
+# 👋 你好，我是 0verme
 
-> Building open-source products at the intersection of data engineering and AI.
->
-> 把真实的数据工程、AI 工作流与研究问题，做成可运行、可审计、可复现的软件。
+**数据产品构建者 · 独立开发者 · 开源贡献者**
 
-I build focused tools, self-hosted products, and research infrastructure around data engineering, metadata governance, reproducibility, and reviewable AI-assisted workflows.
+把真实的数据工程问题，做成小而完整、可以真正运行的软件。
 
-## Featured open source
+见远而行 · Horizon Joins Journey
 
-### [ashare-turnaround](https://github.com/0verme/ashare-turnaround)
+## 关于我
 
-A local-first research foundation for A-share fundamental-turnaround analysis. It builds a PIT-safe historical research corpus with raw-field provenance, canonical views, replay, evaluation, and explicit barriers against future information leakage.
+我长期从事数据平台、湖仓与数据工程，也在把工作中反复遇到的问题做成独立产品。喜欢轻量、自托管、可审计的软件，让它们在真实环境里跑起来。最近在探索 AI Agent 如何真正参与软件工程，同时持续向开源项目贡献。
 
-Research infrastructure, not an investment-return or stock-picking product.
+## 精选作品
 
-### [LarkLedger](https://github.com/0verme/LarkLedger) · [Live](https://ledger.overme.cn/)
+| 作品 | 我做了什么 |
+| --- | --- |
+| [Data Asset Portal](https://github.com/0verme/data-asset-portal-community) | 给中小团队使用的轻量数据资产门户。 |
+| [LarkLedger](https://github.com/0verme/LarkLedger) | 飞书里的自托管记账工具。AI 帮助理解输入，但核心业务行为保持可控、可审计。 |
+| [ashare-turnaround](https://github.com/0verme/ashare-turnaround) | 面向 A 股基本面研究的可复现研究基础设施。 |
+| [lineage-viewer](https://github.com/0verme/lineage-viewer) | 一个轻量、可嵌入的数据血缘可视化组件。 |
 
-A self-hosted Feishu / Lark bookkeeping platform with Web and API entry points. Deterministic financial workflows, typed assistant responses, and query capabilities keep business actions reviewable; AI turns input into validated actions and does not directly operate the database.
+## 开源
 
-### [Data Asset Portal](https://github.com/0verme/data-asset-portal-community) · [Live](https://data.overme.cn/)
+除了自己的项目，也持续参与 [DBX](https://github.com/t8y2/dbx) 等开源项目，通过 issue、bug 修复和 PR 向上游贡献。
 
-A lightweight metadata management portal for data warehouses: discover and maintain data assets, field and table mappings, lineage, and governance-oriented metadata workflows. It is designed for real data-platform workflows and offline or self-hosted deployment.
+`复现 → 定位 → 修复 → 回归验证 → 上游贡献`
 
-### [lineage-viewer](https://github.com/0verme/lineage-viewer) · [Live](https://lineage.overme.cn/)
+## 最近在做
 
-A lightweight, framework-free, embeddable Web Component for interactive table and column lineage. It uses JSON, SVG, Shadow DOM, and zero runtime dependencies so lineage views can fit into existing applications.
+- 🧱 数据资产与数据工程工具
+- 🤖 AI Agent / AI-native 软件工程
+- 🌱 可复现的研究工具与小而完整的独立产品
 
-## Data engineering toolchain
+## 技术关键词
 
-[Data Asset Portal](https://data.overme.cn/) and [Audit](https://audit.overme.cn/) are companion tools in the same data engineering toolchain: the public portal covers data assets, metadata, lineage, and governance workflows; Audit is the private companion for engineering audit. They are presented here as a product relationship, not as an already-integrated system.
+Python · TypeScript · FastAPI · PostgreSQL · Docker · Cloudflare · AI Agents
 
-- **Data Asset Portal** — public metadata and lineage workflows: [data.overme.cn](https://data.overme.cn/) · [source](https://github.com/0verme/data-asset-portal-community)
-- **Audit** — private, not open source: [audit.overme.cn](https://audit.overme.cn/)
+## 找到我
 
-## Open source contributions
-
-### [DBX](https://github.com/t8y2/dbx)
-
-Active contributor to a lightweight cross-platform database client. Recent upstream work spans SQL editor behavior, PostgreSQL correctness, schema diff, Kafka and data-transfer workflows, performance, frontend UX, and regression fixes.
-
-My usual path is:
-
-`reproduce → isolate the root cause → make a scoped fix → add or strengthen regression coverage → send the change upstream`
-
-## Current focus
-
-- Data infrastructure, metadata, and governance
-- AI-native software engineering and agent workflows
-- Point-in-time-safe quantitative research tooling
-- Self-hosted products and lightweight automation
-- Database tooling and upstream open-source contribution
-
-## Working principles
-
-- **Inspectable by default** — schemas, rules, assumptions, evidence, and generated artifacts should stay reviewable.
-- **Verification over vibes** — reproduce → isolate → fix → regress; prefer evidence over guesses.
-- **Local-first where practical** — keep sensitive metadata, credentials, workflow state, and usage data local or self-hosted when feasible.
-- **AI-native engineering** — use Codex, Claude Code, Pi, and other coding agents as leverage while preserving acceptance criteria, tests, provenance, reviewability, and reproducibility.
-- **Small integration surface** — prefer focused CLIs, APIs, and reusable components over an unnecessary all-in-one platform.
-- **Respect upstream** — distinguish original work, forks, inspiration, and upstream contributions.
-
-## Stack
-
-Python · TypeScript · Rust · Vue · React · FastAPI · PostgreSQL · SQLite · DuckDB · Parquet · Cloudflare Workers · D1 · Docker · LLM / agent workflows
-
-## Links
-
-- Website: [www.overme.cn](https://www.overme.cn/)
-- GitHub: [github.com/0verme](https://github.com/0verme)
-- Data Platform: [Asset Portal](https://data.overme.cn/) · [Audit](https://audit.overme.cn/) (Private, not open source)
-- Lineage: [lineage.overme.cn](https://lineage.overme.cn/)
-- Ledger: [ledger.overme.cn](https://ledger.overme.cn/)
-- AI Usage: [token.overme.cn](https://token.overme.cn/)
+🌐 [overme.cn](https://www.overme.cn/) · GitHub [@0verme](https://github.com/0verme)
