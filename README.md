@@ -1,6 +1,6 @@
-# 👋 你好，我是 0verme
+# 你好，我是 0verme
 
-**数据产品构建者 · 独立开发者 · 开源贡献者**
+**数据工程 · AI 工具 · 独立开发**
 
 把真实的数据工程问题，做成小而完整、可以真正运行的软件。
 
@@ -8,33 +8,39 @@
 
 ## 关于我
 
-我长期从事数据平台、湖仓与数据工程，也在把工作中反复遇到的问题做成独立产品。喜欢轻量、自托管、可审计的软件，让它们在真实环境里跑起来。最近在探索 AI Agent 如何真正参与软件工程，同时持续向开源项目贡献。
+我长期从事数据平台、湖仓与数据工程，把工作中反复遇到的问题做成工具，也用交互实验分享工程经验。最近在探索 AI Agent 如何参与日常开发：从工作空间、长任务通知，到整理可追溯的工作成果。喜欢轻量、自托管、可审计的软件，持续参与开源贡献。
 
-## 精选作品
+## 数据工程
 
-| 作品 | 我做了什么 |
-| --- | --- |
-| [Data Asset Portal](https://github.com/0verme/data-asset-portal-community) | 给中小团队使用的轻量数据资产门户。 |
-| [LarkLedger](https://github.com/0verme/LarkLedger) | 飞书里的自托管记账工具。AI 帮助理解输入，但核心业务行为保持可控、可审计。 |
-| [ashare-turnaround](https://github.com/0verme/ashare-turnaround) | 面向 A 股基本面研究的可复现研究基础设施。 |
-| [lineage-viewer](https://github.com/0verme/lineage-viewer) | 一个轻量、可嵌入的数据血缘可视化组件。 |
+- **[数据仓库图解](https://github.com/0verme/data-warehouse-visualized)** — 用图解和交互实验理解数据建模、指标、调度与血缘。[在线学习](https://sql.sb/)
+- **[Data Asset Portal](https://github.com/0verme/data-asset-portal-community)** — 面向数据团队的轻量数据资产门户，管理表、字段、指标与元数据。[在线浏览](https://data.overme.cn/)
+- **[Lakehouse Toolkit](https://github.com/0verme/lakehouse-toolkit)** — 面向湖仓开发的 SQL 审计、DDL 检查、血缘与作业依赖工具集。
+- **[lineage-viewer](https://github.com/0verme/lineage-viewer)** — 轻量、框架无关、可嵌入的表级与字段级血缘可视化组件。[在线演示](https://lineage.overme.cn/)
 
-## 开源
+## AI 开发工具
 
-除了自己的项目，也持续参与 [DBX](https://github.com/t8y2/dbx) 等开源项目，通过 issue、bug 修复和 PR 向上游贡献。
+- **[Pi Agent Pulse](https://github.com/0verme/pi-agent-pulse)** — 为 Pi Agent 长任务提供状态观察、疑似停滞提醒和通知。
+- **[Career Compiler](https://github.com/0verme/career-compiler)**（早期项目）— 从开发活动中整理可追溯的职业证据，生成简历与 GitHub 主页。
+- **[project-workspace-init](https://github.com/0verme/project-workspace-init)** — 用于初始化 Git 工作空间与 Agent 协作目录、创建和复用任务 worktree 的 Skill。
+
+## 应用实践
+
+- **[LarkLedger（飞账）](https://github.com/0verme/LarkLedger)** — 自托管的个人与家庭财务系统，支持 Web、飞书/Lark 与开放 API；AI 理解输入，业务逻辑维护账本事实。[Web 入口（需飞书登录）](https://ledger.overme.cn/)
+
+## 开源与近期探索
+
+参与 [DBX](https://github.com/t8y2/dbx) 上游贡献。
 
 `复现 → 定位 → 修复 → 回归验证 → 上游贡献`
 
-## 最近在做
+最近关注三个方向：
 
-- 🧱 数据资产与数据工程工具
-- 🤖 AI Agent / AI-native 软件工程
-- 🌱 可复现的研究工具与小而完整的独立产品
+- 数仓交互教学：把建模、调度和数据质量问题放进可操作的实验。
+- Agent 开发工具：完善工作空间管理、长任务通知与工作成果整理。
+- DBX 插件探索：[Plan Detective](https://github.com/0verme/dbx-plugin-plan-detective) 正处于宿主 API 能力验证阶段，执行计划解析与诊断能力尚未实现。
 
-## 技术关键词
-
-Python · TypeScript · FastAPI · PostgreSQL · Docker · Cloudflare · AI Agents
-
-## 找到我
-
-🌐 [overme.cn](https://www.overme.cn/) · GitHub [@0verme](https://github.com/0verme)
+## 关于我
+ X  [@0verme](https://x.com/0verme8)
+ Aiusage [aiusage](https://token.overme.cn)
+ Blog [blog](https://blog.overme.cn)
+🌐 [overme.cn](https://www.overme.cn/)
