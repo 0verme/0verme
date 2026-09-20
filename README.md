@@ -1,4 +1,4 @@
-# 👋 你好，我是 0verme
+# 你好，我是 0verme
 
 **数据工程 · AI 工具 · 独立开发**
 
@@ -29,7 +29,7 @@
 
 ## 开源与近期探索
 
-参与 [DBX](https://github.com/t8y2/dbx) 上游贡献，已合并的工作包括[修复插件结果视图](https://github.com/t8y2/dbx/pull/9599)、[修复 SQL Server 结构对比的元数据并发问题](https://github.com/t8y2/dbx/pull/9601)，以及[支持数据对比匹配列配置](https://github.com/t8y2/dbx/pull/9555)。
+参与 [DBX](https://github.com/t8y2/dbx) 上游贡献。
 
 `复现 → 定位 → 修复 → 回归验证 → 上游贡献`
 
@@ -39,6 +39,8 @@
 - Agent 开发工具：完善工作空间管理、长任务通知与工作成果整理。
 - DBX 插件探索：[Plan Detective](https://github.com/0verme/dbx-plugin-plan-detective) 正处于宿主 API 能力验证阶段，执行计划解析与诊断能力尚未实现。
 
-## 找到我
-
-🌐 [overme.cn](https://www.overme.cn/) · GitHub [@0verme](https://github.com/0verme)
+## 关于我
+ X  [@0verme](https://x.com/0verme8)
+ Aiusage [aiusage](https://token.overme.cn)
+ Blog [blog](https://blog.overme.cn)
+🌐 [overme.cn](https://www.overme.cn/) 
