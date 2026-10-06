@@ -8,20 +8,23 @@
 
 ## 关于我
 
-我长期从事数据平台、湖仓与数据工程，把工作中反复遇到的问题做成工具，也用交互实验分享工程经验。最近在探索 AI Agent 如何参与日常开发：从工作空间、长任务通知，到整理可追溯的工作成果。喜欢轻量、自托管、可审计的软件，持续参与开源贡献。
+我长期从事数据平台、湖仓与数据工程，把工作中反复遇到的问题做成工具，也用交互实验分享工程经验。最近主要在做数仓交互教学、DBX 数据库插件，以及 AI 开发工具的使用统计与任务观察。喜欢轻量、自托管、可审计的软件，持续参与开源贡献。
 
 ## 数据工程
 
 - **[数据仓库图解](https://github.com/0verme/data-warehouse-visualized)** — 用图解和交互实验理解数据建模、指标、调度与血缘。[在线学习](https://sql.sb/)
 - **[Data Asset Portal](https://github.com/0verme/data-asset-portal-community)** — 面向数据团队的轻量数据资产门户，管理表、字段、指标与元数据。[在线浏览](https://data.overme.cn/)
-- **[Lakehouse Toolkit](https://github.com/0verme/lakehouse-toolkit)** — 面向湖仓开发的 SQL 审计、DDL 检查、血缘与作业依赖工具集。
 - **[lineage-viewer](https://github.com/0verme/lineage-viewer)** — 轻量、框架无关、可嵌入的表级与字段级血缘可视化组件。[在线演示](https://lineage.overme.cn/)
+
+## DBX 插件
+
+- **[Plan Detective](https://github.com/0verme/dbx-plugin-plan-detective)** — 解析多种数据库的预估执行计划，展示计划树、热点节点与诊断线索；估算结果不代表实际运行表现。
+- **[SchemaSeed](https://github.com/0verme/dbx-plugin-SchemaSeed)** — 按表结构生成可复现的测试数据，预览后导出 CSV、JSON 或 INSERT SQL。两个插件均已收录到 [DBX Store](https://github.com/t8y2/dbx-store)。
 
 ## AI 开发工具
 
+- **[AIUsage](https://github.com/0verme/aiusage)**（基于上游项目维护的分支）— 本地采集 AI 工具的用量，跨设备汇总 token 与估算费用，部署到自己的 Cloudflare Worker。[我的用量看板](https://token.overme.cn/)
 - **[Pi Agent Pulse](https://github.com/0verme/pi-agent-pulse)** — 为 Pi Agent 长任务提供状态观察、疑似停滞提醒和通知。
-- **[Career Compiler](https://github.com/0verme/career-compiler)**（早期项目）— 从开发活动中整理可追溯的职业证据，生成简历与 GitHub 主页。
-- **[project-workspace-init](https://github.com/0verme/project-workspace-init)** — 用于初始化 Git 工作空间与 Agent 协作目录、创建和复用任务 worktree 的 Skill。
 
 ## 应用实践
 
@@ -36,11 +39,9 @@
 最近关注三个方向：
 
 - 数仓交互教学：把建模、调度和数据质量问题放进可操作的实验。
-- Agent 开发工具：完善工作空间管理、长任务通知与工作成果整理。
-- DBX 插件探索：[Plan Detective](https://github.com/0verme/dbx-plugin-plan-detective) 正处于宿主 API 能力验证阶段，执行计划解析与诊断能力尚未实现。
+- 数据库开发辅助：围绕执行计划分析与测试数据生成，完善 DBX 插件。
+- 个人网站与写作：整理中英文项目介绍、技术文章与开源贡献。
 
-## 关于我
- X  [@0verme](https://x.com/0verme8)
- Aiusage [aiusage](https://token.overme.cn)
- Blog [blog](https://blog.overme.cn)
-🌐 [overme.cn](https://www.overme.cn/)
+## 找到我
+
+[个人网站](https://overme.cn/) · [博客](https://blog.overme.cn/) · [X / @0verme8](https://x.com/0verme8)
